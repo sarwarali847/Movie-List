@@ -1,0 +1,78 @@
+.movie-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.movie-card {
+  border: 2px solid #2196f3;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  background-color: white;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(33, 150, 243, 0.7);
+}
+
+.movie-card img {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.movie-card h3 {
+  margin: 5px 0;
+  color: #2196f3;
+}
+
+.movie-card p {
+  background-color: #2196f3;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+
+.movie-card p:hover {
+  background-color: #1565c0;
+}
+
+.year-section {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #f2f2f2;
+}
+
+.year-section h2 {
+  color: whitesmoke;
+  font-size: 24px;
+  margin-bottom: 10px;
+  background-color: #3498db;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.movie-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.movie-card img:hover {
+  border: 2px solid #2196f3;
+  border-radius: 20px;
+  transform: scale(1.1);
+}
